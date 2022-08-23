@@ -1,3 +1,3 @@
 ## 1.0.1
 
-- LICENSE: MIT
+- Example added
