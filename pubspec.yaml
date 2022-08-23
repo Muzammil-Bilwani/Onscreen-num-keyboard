@@ -1,6 +1,6 @@
 name: onscreen_num_keyboard
 description: Flutter plugin to display a simple numeric keyboard on Android & iOS.
-version: 1.0.2
+version: 1.0.3
 homepage: https://github.com/Muzammil-Bilwani/Onscreen-num-keyboard
 
 environment:

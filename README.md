@@ -51,4 +51,9 @@ NumericKeyboard(
 )
 ```
 
+## Example
+
+Example UI for the widget:
+![Example](https://raw.githubusercontent.com/Muzammil-Bilwani/Onscreen-num-keyboard/main/example.png)
+
 If something is missing, feel free to open a ticket or contribute!
