@@ -2,9 +2,11 @@
 
 A simple numeric keyboard widget
 
+[![pub package](https://img.shields.io/pub/v/numeric_keyboard.svg?style=for-the-badge&color=blue)](https://pub.dartlang.org/packages/onscreen_num_keyboard)
+
 ## Installation
 
-Add `onscreen_num_keyboard: ^1.0.0` in your `pubspec.yaml` dependencies. And import it:
+Add `onscreen_num_keyboard: ^1.0.2` in your `pubspec.yaml` dependencies. And import it:
 
 ```dart
 import 'package:onscreen_num_keyboard/onscreen_num_keyboard.dart';

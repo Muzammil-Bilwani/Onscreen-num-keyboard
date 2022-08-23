@@ -1,5 +1,3 @@
-## 1.0.0
+## 1.0.2
 
-- Initial release of the library.
-- Added the `NumericKeyboard` widget.
-- Added the `NumericKeyboardButton` widget.
+- Example added
