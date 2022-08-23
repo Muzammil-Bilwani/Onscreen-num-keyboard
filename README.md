@@ -6,7 +6,7 @@ A simple numeric keyboard widget
 
 ## Installation
 
-Add `onscreen_num_keyboard: ^1.0.1` in your `pubspec.yaml` dependencies. And import it:
+Add `onscreen_num_keyboard: ^1.0.2` in your `pubspec.yaml` dependencies. And import it:
 
 ```dart
 import 'package:onscreen_num_keyboard/onscreen_num_keyboard.dart';
