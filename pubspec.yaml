@@ -1,6 +1,7 @@
 name: onscreen_num_keyboard
 description: OnScreen Numeric Keyboard
 version: 1.0.0
+homepage: https://github.com/Muzammil-Bilwani/Onscreen-num-keyboard
 
 environment:
   sdk: ">=2.16.2 <3.0.0"
