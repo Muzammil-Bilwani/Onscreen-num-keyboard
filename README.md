@@ -38,8 +38,15 @@ NumericKeyboard(
     color: Colors.black
   ),
   rightButtonFn: () {
+    if (text.isEmpty) return;
     setState(() {
       text = text.substring(0, text.length - 1);
+    });
+  },
+  rightBtnLongPressFn: () {
+    if (text.isEmpty) return;
+    setState(() {
+      text = '';
     });
   },
   rightIcon: Icon(Icons.backspace, color: Colors.red,),
