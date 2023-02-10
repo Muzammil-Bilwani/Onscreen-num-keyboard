@@ -60,8 +60,15 @@ class _MyHomePageState extends State<MyHomePage> {
               fontSize: 28,
             ),
             rightButtonFn: () {
+              if (text.isEmpty) return;
               setState(() {
                 text = text.substring(0, text.length - 1);
+              });
+            },
+            rightBtnLongPressFn: () {
+              if (text.isEmpty) return;
+              setState(() {
+                text = '';
               });
             },
             rightIcon: const Icon(
