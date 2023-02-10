@@ -15,7 +15,7 @@ class NumericKeyboard extends StatefulWidget {
   final Function()? rightButtonFn;
 
   /// Action to trigger when right button is long pressed
-  final Function()? rightBtnLongPressFn;
+  final Function()? rightButtonLongPressFn;
 
   /// Display a custom left icon
   final Widget? leftIcon;
@@ -34,7 +34,7 @@ class NumericKeyboard extends StatefulWidget {
       required this.onKeyboardTap,
       this.textStyle = const TextStyle(color: Colors.black),
       this.rightButtonFn,
-      this.rightBtnLongPressFn,
+      this.rightButtonLongPressFn,
       this.rightIcon,
       this.leftButtonFn,
       this.leftIcon,
@@ -94,7 +94,7 @@ class _NumericKeyboardState extends State<NumericKeyboard> {
               InkWell(
                   borderRadius: BorderRadius.circular(45),
                   onTap: widget.rightButtonFn,
-                  onLongPress: widget.rightBtnLongPressFn,
+                  onLongPress: widget.rightButtonLongPressFn,
                   child: Container(
                       alignment: Alignment.center,
                       width: 50,
