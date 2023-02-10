@@ -43,7 +43,7 @@ NumericKeyboard(
       text = text.substring(0, text.length - 1);
     });
   },
-  rightBtnLongPressFn: () {
+  rightButtonLongPressFn: () {
     if (text.isEmpty) return;
     setState(() {
       text = '';
