@@ -94,7 +94,7 @@ class _NumericKeyboardState extends State<NumericKeyboard> {
               InkWell(
                   borderRadius: BorderRadius.circular(45),
                   onTap: widget.rightButtonFn,
-                  onLongPress: widget.rightBtnLongPressFn ?? () {},
+                  onLongPress: widget.rightBtnLongPressFn,
                   child: Container(
                       alignment: Alignment.center,
                       width: 50,
